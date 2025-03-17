@@ -1,10 +1,10 @@
 ### **🏛 2016 U.S. Presidential Election Poll Data**
-#### 📊 **Overview**
+#### **Overview**
 This repository includes polling data from **FiveThirtyEight** and the **USC Dornsife/Los Angeles Times Daybreak Poll** for the 2016 U.S. Presidential Election. These datasets track **Trump vs. Clinton polling trends**, voter demographics, and predicted election outcomes.
 
 ---
 
-## **📚 Poll Data Files**
+## **Poll Data Files**
 The dataset consists of two primary sources:
 
 1. **FiveThirtyEight Polls** (`president_general_polls_2016.csv`)
@@ -19,7 +19,7 @@ The dataset consists of two primary sources:
 
 ---
 
-## **📂 USC Daybreak Poll Data Structure**
+## **USC Daybreak Poll Data Structure**
 Each file in the **USC Dornsife/LA Times dataset** is a **tab-delimited text file** with the following structure:
 
 | **Column** | **Description** |
@@ -34,7 +34,7 @@ Each file in the **USC Dornsife/LA Times dataset** is a **tab-delimited text fil
 
 ---
 
-## **📀 Breakdown of USC Poll Files**
+## **Breakdown of USC Poll Files**
 USC Daybreak polls also contain breakdowns based on **demographics**.
 
 | **File Name** | **Breakdown Variable** |
@@ -54,11 +54,11 @@ USC Daybreak polls also contain breakdowns based on **demographics**.
 | `pop_edu_2.csv` | Some college or associate's degree |
 | `pop_edu_3.csv` | Bachelor's degree or more |
 
-🟢 Files of the format **`type_variable_category.csv`** represent a **specific subgroup** of voters.
+Files of the format **`type_variable_category.csv`** represent a **specific subgroup** of voters.
 
 ---
 
-## **📈 Key Insights from the Polls**
+## **Key Insights from the Polls**
 1. **Polling Methodology**
    - FiveThirtyEight aggregates multiple poll results, adjusting for **bias and accuracy**.
    - USC Daybreak uses a **rolling 7-day average** to smooth polling trends.
@@ -73,21 +73,14 @@ USC Daybreak polls also contain breakdowns based on **demographics**.
 
 ---
 
-## **📊 How to Use This Data**
+## **How to Use This Data**
 - **Track overall polling trends** from **July to November 2016**.
 - **Analyze voting patterns** across different **demographics** (race, gender, income, education).
 - **Compare poll predictions** with **actual election results**.
 
 ---
 
-## **📚 References**
+## **References**
 - [FiveThirtyEight Polling Data](https://projects.fivethirtyeight.com/polls/)
 - [USC Dornsife / LA Times Daybreak Poll](https://cesrusc.org/election/)
-
----
-
-### 🔍 **Next Steps**
-- **Compare polling trends with campaign events & speeches.**
-- **Analyze sentiment in speeches alongside poll fluctuations.**
-- **Visualize demographic shifts over time.**
 
